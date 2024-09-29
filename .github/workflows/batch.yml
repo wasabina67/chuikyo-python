@@ -48,4 +48,4 @@ jobs:
             git commit -m "Update num.txt | $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M:%S %Z')"
             git push
             bash notify.sh
-          if
+          fi
