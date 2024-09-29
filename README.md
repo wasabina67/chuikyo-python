@@ -3,7 +3,9 @@ Central Social Insurance Medical Council (Chuikyo)
 
 ## Actions
 
-## Get output.xlsx
+## Get output.xlsx from Pages
+
+[![pages-build-deployment](https://github.com/wasabina67/chuikyo-python/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/wasabina67/chuikyo-python/actions/workflows/pages/pages-build-deployment)
 
 ## Chuikyo website
 
