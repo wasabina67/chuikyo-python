@@ -5,6 +5,10 @@ Central Social Insurance Medical Council (Chuikyo)
 
 [![batch](https://github.com/wasabina67/chuikyo-python/actions/workflows/batch.yml/badge.svg)](https://github.com/wasabina67/chuikyo-python/actions/workflows/batch.yml)
 
+### LINE Notify
+
+<img src="https://github.com/user-attachments/assets/090e0cc4-cddf-4609-af63-0e3f8a4197a3" width=360>
+
 ## Get output.xlsx
 
 [![pages-build-deployment](https://github.com/wasabina67/chuikyo-python/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/wasabina67/chuikyo-python/actions/workflows/pages/pages-build-deployment)
