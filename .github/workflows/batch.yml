@@ -31,3 +31,9 @@ jobs:
         run: |
           python run.py > num.txt
           cat num.txt
+
+      - name: Check num.txt
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          bash notify.sh
