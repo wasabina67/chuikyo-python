@@ -43,5 +43,9 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
-          bash notify.sh
-          git config -l
+          if ! git diff --quiet -- num.txt; then
+            git add .
+            git commit -m "Update num.txt | $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M:%S %Z')"
+            git push
+            bash notify.sh
+          if
