@@ -39,7 +39,7 @@ jobs:
           python run.py > num.txt
           cat num.txt
 
-      - name: Check num.txt
+      - name: Commit/Push If there is a diff in num.txt
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         run: |
