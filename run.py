@@ -35,7 +35,10 @@ def main():
     headers, latest = rows[0], rows[1]
     validate_headers(headers)
 
-    _ = latest.findAll("td")
+    tds = latest.findAll("td")
+    td_num, td_event_date, td_agenda, _, td_docs, _ = tds  # noqa
+    latest_num = td_num.text
+    print(latest_num)
 
 
 if __name__ == "__main__":
