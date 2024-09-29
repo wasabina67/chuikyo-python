@@ -2,6 +2,20 @@ import requests  # type: ignore
 from bs4 import BeautifulSoup  # type: ignore
 
 
+def validate_headers(headers):
+    expected_th_set = {
+        "回数",
+        "開催日",
+        "議題等",
+        "議事録／議事要旨",
+        "資料等",
+        "開催案内",
+    }
+    ths = headers.findAll("th")
+    th_set = {th.text for th in ths}
+    assert expected_th_set == th_set
+
+
 def validate_title(title):
     expected_title = "中央社会保険医療協議会(中央社会保険医療協議会総会) ｜厚生労働省"
     assert expected_title == title
@@ -15,6 +29,13 @@ def main():
 
     title = soup.find("title").text
     validate_title(title)
+
+    table = soup.find("table", {"class": "m-tableFlex"})
+    rows = table.findAll("tr")
+    headers, latest = rows[0], rows[1]
+    validate_headers(headers)
+
+    _ = latest.findAll("td")
 
 
 if __name__ == "__main__":
