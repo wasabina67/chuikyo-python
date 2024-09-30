@@ -10,7 +10,7 @@ Central Social Insurance Medical Council (Chuikyo)
 
 ### LINE Notify
 
-<img src="https://github.com/user-attachments/assets/090e0cc4-cddf-4609-af63-0e3f8a4197a3" width=360>
+<img src="https://github.com/user-attachments/assets/65a5e7de-0106-4ea6-9dfc-a5792db9076c" width=360>
 
 ## Get output.xlsx
 
