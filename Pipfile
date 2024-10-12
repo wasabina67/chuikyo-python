@@ -7,6 +7,8 @@ name = "pypi"
 beautifulsoup4 = "*"
 requests = "*"
 xlsxwriter = "*"
+line-bot-sdk = "*"
+python-dotenv = "*"
 
 [dev-packages]
 black = "*"
