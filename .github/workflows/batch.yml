@@ -42,10 +42,12 @@ jobs:
       - name: Commit/Push If there is a diff in num.txt
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
         run: |
           if ! git diff --quiet -- num.txt; then
             git add .
             git commit -m "Update num.txt | $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M:%S %Z')"
             git push
             bash notify.sh
+            # python notify.py
           fi
