@@ -7,6 +7,7 @@ Central Social Insurance Medical Council (Chuikyo)
 
 - Check for updates to meeting minutes every morning at 8 AM (JST) using GitHub Actions.
 - ~~If updates are found, send a notification via LINE Notify.~~
+- If updates are found, send a notification via Messaging API.
 
 ### LINE Notify
 
