@@ -14,9 +14,7 @@ Central Social Insurance Medical Council (Chuikyo)
 
 ### Messaging API
 
-<!--
 <img src="images/line-messaging-api.jpg" width=360>
--->
 
 ## Get output.xlsx
 
