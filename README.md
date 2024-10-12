@@ -10,12 +10,12 @@ Central Social Insurance Medical Council (Chuikyo)
 
 ### LINE Notify
 
-<img src="https://github.com/user-attachments/assets/65a5e7de-0106-4ea6-9dfc-a5792db9076c" width=360>
+<img src="images/line-notify.jpg" width=360>
 
 ### Messaging API
 
 <!--
-<img src="https://github.com/user-attachments/assets/65a5e7de-0106-4ea6-9dfc-a5792db9076c" width=360>
+<img src="images/line-messaging-api.jpg" width=360>
 -->
 
 ## Get output.xlsx
@@ -26,7 +26,7 @@ Central Social Insurance Medical Council (Chuikyo)
 
 ### output.xlsx
 
-![image](https://github.com/user-attachments/assets/acf8cdce-cc70-43fb-8f3a-a771ec5290e0)
+![](images/output.xlsx.png)
 
 ## Chuikyo website
 
