@@ -9,7 +9,11 @@ load_dotenv(override=True)
 def main():
     access_token = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
     configuration = messaging.Configuration(access_token=access_token)
-    message_dict = {}
+    message_dict = {
+        "messages": [
+            {"type": "text", "text": "text"},
+        ],
+    }
 
     with messaging.ApiClient(configuration=configuration) as client:
         messaging_api = messaging.MessagingApi(client)
