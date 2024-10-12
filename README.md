@@ -12,7 +12,7 @@ Central Social Insurance Medical Council (Chuikyo)
 
 <img src="https://github.com/user-attachments/assets/65a5e7de-0106-4ea6-9dfc-a5792db9076c" width=360>
 
-## Messaging API
+### Messaging API
 
 <!--
 <img src="https://github.com/user-attachments/assets/65a5e7de-0106-4ea6-9dfc-a5792db9076c" width=360>
@@ -22,7 +22,7 @@ Central Social Insurance Medical Council (Chuikyo)
 
 [![pages-build-deployment](https://github.com/wasabina67/chuikyo-python/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/wasabina67/chuikyo-python/actions/workflows/pages/pages-build-deployment)
 
-- [Get output.xlsx](https://wasabina67.github.io/chuikyo-python/output.xlsx)
+[Get output.xlsx](https://wasabina67.github.io/chuikyo-python/output.xlsx)
 
 ### output.xlsx
 
