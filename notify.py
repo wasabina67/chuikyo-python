@@ -9,7 +9,10 @@ load_dotenv(override=True)
 def main():
     access_token = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
     configuration = messaging.Configuration(access_token=access_token)
-    num = "第596回"
+
+    with open("num.txt", "r", encoding="utf-8") as file:
+        num = file.read().strip()
+
     text = f"{num} の資料が公開されました。https://www.mhlw.go.jp/stf/shingi/shingi-chuo_128154.html"
     message_dict = {
         "messages": [
