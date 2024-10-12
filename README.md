@@ -6,8 +6,7 @@ Central Social Insurance Medical Council (Chuikyo)
 [![batch](https://github.com/wasabina67/chuikyo-python/actions/workflows/batch.yml/badge.svg)](https://github.com/wasabina67/chuikyo-python/actions/workflows/batch.yml)
 
 - Check for updates to meeting minutes every morning at 8 AM (JST) using GitHub Actions.
-- ~~If updates are found, send a notification via LINE Notify.~~
-- If updates are found, send a notification via Messaging API.
+- If updates are found, send a notification via ~~LINE Notify~~ Messaging API.
 
 ### LINE Notify
 
